@@ -111,7 +111,7 @@ gulp.task('watch', function() {
   gulp.watch('app/stylesheets/**/*.less', ['styles']);
 });
 
-//gulp.task('default', ['styles', 'vendor', 'browserify-watch', 'watch']);
-//gulp.task('build', ['styles', 'vendor', 'browserify']);
-gulp.task('default', ['styles', 'vendor', 'watch']);
-gulp.task('build', ['styles', 'vendor']);
+gulp.task('default', ['styles', 'vendor', 'browserify-watch', 'watch']);
+gulp.task('build', ['styles', 'vendor', 'browserify']);
+//gulp.task('default', ['styles', 'vendor', 'watch']);
+//gulp.task('build', ['styles', 'vendor']);
